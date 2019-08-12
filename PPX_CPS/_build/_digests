@@ -1,0 +1,5 @@
+"Rule: ocaml: ml & cmi -> cmx & o (%=ppxCPS )": "\210\191\164\187`\159\159#\212\t\161\222@e\213\155"
+"Rule: ocaml: cmx* & o* -> native (%=ppxCPS )": "\176\201\216U\184\236\155\160v0y\163\177+\232\129"
+"Resource: /home/tiago/CPS/PPX_CPS/ppxCPS.ml": "\254\1941\155\252\182\129\128\131\224t\254\134\216\229\148"
+"Rule: ocaml: ml -> cmo & cmi (%=ppxCPS )": "\149,c\\\145pBe.\\\162ZOJ\169E"
+"Rule: ocaml dependencies ml (%=ppxCPS )": "\000o\217\252\017\130UX\220\133}j%\136\197\219"

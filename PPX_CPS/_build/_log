@@ -1,0 +1,10 @@
+### Starting build.
+# Target: ppxCPS.ml.depends, tags: { extension:ml, file:ppxCPS.ml, ocaml, ocamldep, quiet, traverse }
+/home/tiago/.opam/4.05.0/bin/ocamldep.opt -modules ppxCPS.ml > ppxCPS.ml.depends
+# Target: ppxCPS.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ppxCPS.cmo, file:ppxCPS.ml, implem, ocaml, quiet, traverse }
+/home/tiago/.opam/4.05.0/bin/ocamlc.opt -c -I /home/tiago/.opam/4.05.0/lib/ocaml/compiler-libs -o ppxCPS.cmo ppxCPS.ml
+# Target: ppxCPS.cmx, tags: { compile, extension:cmx, extension:ml, file:ppxCPS.cmx, file:ppxCPS.ml, implem, native, ocaml, quiet, traverse }
+ocamlopt str.cmxa -c -I /home/tiago/.opam/4.05.0/lib/ocaml/compiler-libs -o ppxCPS.cmx ppxCPS.ml
+# Target: ppxCPS.native, tags: { dont_link_with, extension:native, file:ppxCPS.native, link, native, ocaml, program, quiet, traverse }
+ocamlopt str.cmxa -I /home/tiago/.opam/4.05.0/lib/ocaml/compiler-libs /home/tiago/.opam/4.05.0/lib/ocaml/compiler-libs/ocamlcommon.cmxa ppxCPS.cmx -o ppxCPS.native
+# Compilation successful.
